@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Vite App</title>
   </head>
   <body>
   
-    <div class="container mx-auto border-2 my-8 flex sm:grid-columns-2 justify-between">  
+    <div class="container mx-auto border-2 my-8 flex flex-wrap md:justify-between">  
         <h1 class="text-5xl text-red-900 font-bold" href="/">
         Rogelio.</h1>
-        <div class="flex mx-4 text-red-950">
+        <div class="flex flex-wrap mx-4">
             <p class="p-2 hover:underline">about</p>
             <p class="p-2 hover:underline">contact</p>
             <p class="p-2 hover:underline">services</p>
@@ -21,63 +22,121 @@
     <section>
         <div class="max-w-screen-xl bg-amber-400 px-4 py-16 text-center">
             <div class="text-7xl mb-2">Portfolio</div>
-            <div> 
-                <p>UI/UX Design | Database Structure | Full-stack Web Development</p>
+            <div class="flex justify-center sm:grid-cols-1 hover:underline"> 
+                UI/UX Design | <p class="text-red-900 px-2"> Database Structure </p> | Full-stack Web Development
             </div>    
         </div>
     </section>
 
+
+
+<div class="mx-auto md:max-w-screen-lg bg-yellow-600">
+    <h1 class="text-5xl">About me</h1>
+    <div>  
+    <ul><strong>Experience:</strong>
+        <li>
+            Capstone group work with cohort-46 from Deep Dive Academy, Created a restaurant search app so that local restaurants can be filtered to app user's preferance according to listed categories such as diatery restrictions, meal cost, or newest opening etc.
+        </li>   
+        <li>
+            Ongoing updates to personal and team projects so the user experiences engage in latest features.
+        </li>
+        <li>
+            Constant research or study on latest technology and software so that any project and/or collaborative work will it's intended results produced efficiantly. 
+        </li>
+    </ul>
+    <ul><strong>Education:</strong>
+        <li>
+            University of Hawaii-Hilo BA Economics 2015
+        </li>
+        <li>
+            University of Alaska Accounting Certification 2020
+        </li>
+        <li>
+            Central New Mexico Community College-Deep Dive Coding Full-stack Web Development 2024
+        </li>
+    </ul>
+
+</div>    
+</div>
+
+<div>
+    <h1 class="text-5xl">Services</h1>
+    <ul>
+        <li>
+            UI/UX design - will work on developing up to date user experience also adding the trending feautrues on web pages.
+        </li>
+        <li> Database Structure: developing the database, so the back end is engineered to extract data as needed. </li>
+        <li>Full-stack Development: As a passionate and motivated junior Full-stack Developer, I am excited to transition in the tech industry where I am currently growing my network in the field; and continue to express my eagerness to take on work related fields of Science, Technology, and Engineering. I have proficiency both front-end and back-end development, where I am prepared to utilize my fundamentals in tech with the intention to enhance my skillset via collaborative work.  
+        </li>
+    </ul>
+</div>
     
-    <section class="container mx-auto mt-8 mb-8">
+    <!-- <section class="container mx-auto mt-8 mb-8"> -->
         
-        <div class="max-w-screen-md">
-            <div>   
-                <div class="grid md:grid-cols-2 md:gap-6">
-                <div class="relative z-0 w-full mb-5 group">
-                    <input type="text" name="floating_first_name" id="floating_first_name" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-amber-800 peer" placeholder=" " required />
-                    <label for="floating_first_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-red-600 peer-focus:dark:text-amber-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">First name</label>
+        <div class="max-w-screen-lg text-5xl">Contact Me</div>
+           
+                <div class="mx-auto flex flex-wrap">
+                    <div class="max-w-screen-lg">   
+                    <div class=" md:gap-6">
+                    <div class="relative z-0 w-full mb-5 group">
+                        <input type="text" name="floating_first_name" id="floating_first_name" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-amber-800 peer" placeholder=" " required />
+                        <label for="floating_first_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-red-600 peer-focus:dark:text-amber-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">First name</label>
+                        
+                    </div>
+                    <div class="relative z-0 w-full mb-5 group">
+                    </div>
                 </div>
-                <div class="relative z-0 w-full mb-5 group">
-                    <input type="text" name="floating_last_name" id="floating_last_name" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-amber-500 focus:outline-none focus:ring-0 focus:border-amber-600 peer" placeholder=" " required />
-                    <label for="floating_last_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-amber-600 peer-focus:dark:text-amber-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Last name</label>
-                </div>
-              </div>
-              <div class="grid md:grid-cols-2 md:gap-6">
-                <div class="relative z-0 w-full mb-5 group">
-                    <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="floating_phone" id="floating_phone" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-amber-500 focus:outline-none focus:ring-0 focus:border-amber-600 peer" placeholder=" " required />
-                    <label for="floating_phone" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-amber-600 peer-focus:dark:text-amber-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Phone number (123-456-7890)</label>
-                </div>
-                <div class="relative z-0 w-full mb-5 group">
-                    <input type="email" name="floating_email" id="floating_email" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-amber-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
-                    <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-amber-600 peer-focus:dark:text-amber-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>
-                </div>
-                <div class="relative z-0 w-full mb-5 group">
-                    <input type="text" name="floating_company" id="floating_company" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-amber-500 focus:outline-none focus:ring-0 focus:border-blue-amber peer" placeholder=" "/>
-                    <label for="floating_company" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-amber-600 peer-focus:dark:text-amber-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Company (Ex. CNM Ingenuity, Inc)</label>
-                </div>
-                <div>   
-                    <label class="block mb-2 text-sm text-gray-500 dark:text-white" for="multiple_files">Upload files</label>
-                    <input class="block w-full text-sm text-gray-800 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400" id="multiple_files" type="file" multiple>
-                    <p class="mt-1 text-sm text-gray-500 dark:text-gray-300" id="file_input_help">SVG, PNG, JPG or GIF (MAX. 800x400px).</p>
-                </div>
+                    <div class="grid md:grid-cols-2 md:gap-6">
+                        <div class="relative z-0 w-full mb-5 group">
+                            <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="floating_phone" id="floating_phone" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-amber-500 focus:outline-none focus:ring-0 focus:border-amber-600 peer" placeholder=" " required />
+                            <label for="floating_phone" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-amber-600 peer-focus:dark:text-amber-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Phone number (123-456-7890)</label>
+                        </div>
+                        <div class="relative z-0 w-full mb-5 group">
+                            <input type="email" name="floating_email" id="floating_email" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-amber-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                            <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-amber-600 peer-focus:dark:text-amber-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>
+                        </div>
+                        <div class="relative z-0 w-full mb-5 group">
+                            <input type="text" name="floating_company" id="floating_company" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-amber-500 focus:outline-none focus:ring-0 focus:border-blue-amber peer" placeholder=" "/>
+                            <label for="floating_company" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-amber-600 peer-focus:dark:text-amber-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Company (Ex. CNM Ingenuity, Inc)</label>
+                        </div>
+                        <div>   
+                            <label class="block mb-2 text-sm text-gray-500 dark:text-white" for="multiple_files">Upload files</label>
+                            <input class="block w-full text-sm text-gray-800 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400" id="multiple_files" type="file" multiple>
+                            <p class="mt-1 text-sm text-gray-500 dark:text-gray-300" id="file_input_help">SVG, PNG, JPG or GIF (MAX. 800x400px).</p>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="message" class="block mb-2 text-sm font-medium text-gray-500 dark:text-white">Your message</label>
+                        <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-slate-500 focus:border-slate-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-slate-500 dark:focus:border-slate-500" placeholder="Send a message..."></textarea>
+                    </div>
+                    <div class="mx-auto lg:hidden mt-8 w-64 py-6 px-2 border-2 border-yellow-800 text-red-900 sm:px-4 sm:mt-12 sm:text-3xl sm:font-bold text-center hover:bg-yellow-400 hover:border-yellow-600">Submit</div>  
+                </div> 
+                
+                <div class=" block text-center mx-auto">
+                    <div class="text-5xl">
+                        NM | AZ | CA
+                    </div>
+                    <br>
+                    <div class="mt-3 text-sm justify-between items-center text-gray-500 text-red-900 dark:text-gray-400 sm:mt-0">
+                        
+                        <a href="/https://www.linkedin.com/in/rogelio-marasigan-8b8903315/" class="hover:underline me-4 md:me-6">
+                                Linkedin</a>
+                        <a href="/https://github.com/rogelio-marasigan/" class="hover:underline me-4 md:me-6">Github</a> 
+                    </div>
+                    <br>
+                    <p class="italic">"Your brand is what other people say about you when you're not in the room." -Jeff Bezos</p>       
+                </div>     
             </div>
-         
-            <div>
-            <label for="message" class="block mb-2 text-sm font-medium text-gray-500 dark:text-white">Your message</label>
-            <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-amber-500 focus:border-amber-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-amber-500 dark:focus:border-amber-500" placeholder="Send a message..."></textarea>
-            </div>
+        </div>       
+  <!-- </section> -->
             
-        </div>
-        
-    </section>
+ 
+     <div class="mx-auto mt-8 w-64 py-6 px-2 border-2 border-yellow-800 text-red-900 xs:hidden shadow-md sm:px-4 sm:mt-12 sm:text-3xl sm:font-bold text-center hover:bg-yellow-400 hover:border-yellow-600">Submit</div>   
 
-    <div class="mx-auto mt-8 w-64 py-6 px-2 border-2 border-yellow-800 text-red-900 text-center hover:bg-yellow-400 hover:border-yellow-600">Submit</div>
-
-    <div class="text-5xl text-center mt-8">
-        NM | AZ | CA
-     </div>
      
-   
+     <footer class="mx-auto text-center bg-yellow-50">
+       <div>© 2024 Rogelio, a portfolio. All rights reserved. </div> 
+    </footer>
 
 
     <script type="module" src="/src/main.js"></script>
